@@ -1,5 +1,6 @@
 # Taking Bill Price as Input, Typecasting it to Float to Replacing '$' to ''
 bill_price = float(input("Please Enter the Bill Amount (in $) : ").replace("$", ""))
+# Or You can use .strip('$') removes $ Sign
 # Percantage of (15%, 18%, 20%)
 percent_15 = (bill_price * 15) / 100
 percent_18 = (bill_price * 18) / 100
