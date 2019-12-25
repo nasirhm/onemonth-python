@@ -4,11 +4,11 @@ def brak_words(text):
     return words
 
 # Counts the number of words
-def count_words(words):
+def count_words(words:
     len(words)
 
 # Sorts the words (alphabetically)
-def sortwords(words):
+df sortwords(words):
     words.sort()
     return words
 
